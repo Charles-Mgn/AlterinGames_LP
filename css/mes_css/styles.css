@@ -3,10 +3,12 @@ html {
     color: #FFFFFF;
     font-family: Arial, sans-serif; /* par défaut, à changer */
     position: relative;
+    overflow-x: hidden;
 }
 
 main {
     padding: 100px 0;
+    height: 1500px;
 }
 
 main > img {
@@ -15,18 +17,18 @@ main > img {
 }
 
 #de {
-    top: 0;
+    top: -50px;
     right: -100px;
 }
 
 #echecs {
-    top: 50%;
-    right: -50px;
+    top: 40%;
+    right: -70px;
 }
 
 #famille {
-    top: 25%;
-    left: -50px;
+    top: 18%;
+    left: -70px;
 }
 
 form > * {
@@ -45,13 +47,9 @@ button {
     background: none;
 }
 
-main > div > p {
-    display: block;
-    width: 400px;
-}
-
 form {
     position: relative;
+    width: 500px;
 }
 
 form > input {
@@ -59,6 +57,11 @@ form > input {
     border: none;
     border-bottom: #EA9632 solid 1px;
     width: 200px;
+    padding-top: 10px;
+}
+
+form > label {
+    padding-top: 10px;
 }
 
 form > input[value="Inscrivez-vous"] {
@@ -67,7 +70,8 @@ form > input[value="Inscrivez-vous"] {
     color: #FFFFFF;
     position: absolute;
     bottom: 10%;
-    left: 40%;
+    right: 0;
+    padding: 10px 40px;
 }
 
 aside img {
@@ -95,4 +99,37 @@ header > * {
 
 header > h1 {
     width: 200px;
+}
+
+header > img {
+    height: 150px;
+    width: auto;
+}
+
+.para {
+    position: absolute;
+    padding: 10px;
+    border-top: #EA9632 solid 1px;
+    border-right: #227F89 solid 1px;
+    border-bottom: #227F89 solid 1px;
+    border-left: #EA9632 solid 1px;
+    width: 400px;
+}
+
+.para:first-of-type {
+    top: 9%;
+}
+
+.para:nth-of-type(2) {
+    top: 27%;
+    right: 0;
+}
+
+.para:nth-of-type(3) {
+    top: 45%
+}
+
+#formulaire {
+    position: absolute;
+    top: 59%
 }
