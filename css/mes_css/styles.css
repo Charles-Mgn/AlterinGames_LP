@@ -3,3 +3,44 @@ html {
     color: #FFFFFF;
     font-family: Arial, sans-serif; /* par défaut, à changer */
 }
+
+form > * {
+    display: block;
+}
+
+button, .orange {
+    color: #EA9632;
+}
+
+.blanc {
+    color: #FFFFFF;
+}
+
+button {
+    background: none;
+}
+
+main > p {
+    display: block;
+    width: 400px;
+}
+
+form {
+    position: relative;
+}
+
+form > input {
+    background: none;
+    border: none;
+    border-bottom: #EA9632 solid 1px;
+    width: 200px;
+}
+
+form > input[value="Inscrivez-vous"] {
+    background-color: #EA9632;
+    border: none;
+    color: #FFFFFF;
+    position: absolute;
+    bottom: 10%;
+    left: 40%;
+}
