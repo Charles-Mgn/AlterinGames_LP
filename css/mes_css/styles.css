@@ -44,3 +44,22 @@ form > input[value="Inscrivez-vous"] {
     bottom: 10%;
     left: 40%;
 }
+
+aside img {
+    width: 200px;
+    height: 200px;
+}
+
+aside > div {
+    display: inline-block;
+    padding-right: 50px;
+}
+
+footer {
+    background-color: #FFFFFF;
+    color: #242424;
+}
+
+footer > div {
+    display: inline-block;
+}
