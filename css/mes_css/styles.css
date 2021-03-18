@@ -2,6 +2,31 @@ html {
     background-color: #242424;
     color: #FFFFFF;
     font-family: Arial, sans-serif; /* par défaut, à changer */
+    position: relative;
+}
+
+main {
+    padding: 100px 0;
+}
+
+main > img {
+    position: absolute;
+    z-index: -1;
+}
+
+#de {
+    top: 0;
+    right: -100px;
+}
+
+#echecs {
+    top: 50%;
+    right: -50px;
+}
+
+#famille {
+    top: 25%;
+    left: -50px;
 }
 
 form > * {
@@ -20,7 +45,7 @@ button {
     background: none;
 }
 
-main > p {
+main > div > p {
     display: block;
     width: 400px;
 }
@@ -62,4 +87,12 @@ footer {
 
 footer > div {
     display: inline-block;
+}
+
+header > * {
+    display: inline-block;
+}
+
+header > h1 {
+    width: 200px;
 }
