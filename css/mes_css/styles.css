@@ -4,35 +4,102 @@ html {
     font-family: Arial, sans-serif; /* par défaut, à changer */
     position: relative;
     overflow-x: hidden;
+    font-size: 62.5%;
+    max-width: 1700px;
+    margin: 0 auto;
 }
 
-main {
-    padding: 100px 0;
-    height: 1500px;
+html > * {
+    box-sizing: border-box;
 }
 
-main > img {
-    position: absolute;
-    z-index: -1;
+.container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(12, 5.8%);
+    gap: 1.4%;
 }
 
-#de {
-    top: -50px;
-    right: -100px;
+aside, footer, img {
+    display: none;
 }
 
-#echecs {
-    top: 40%;
-    right: -70px;
+header > h1 {
+    grid-column: 1 / span 3;
+    text-align: right;
+    font-size: 4rem;
 }
 
-#famille {
-    top: 18%;
-    left: -70px;
+header > img {
+    grid-column: 4 / span 3;
+    height: auto;
 }
 
-form > * {
-    display: block;
+#para1 {
+    grid-column: 3 / span 5;
+    font-size: 1.5rem;
+}
+
+#para2 {
+    grid-column: 8 / span 4;
+    font-size: 1.5rem;
+}
+
+#para3 {
+    grid-column: 2 / span 4;
+    font-size: 1.7rem;
+}
+
+#formulaire > p {
+    grid-column: 4 / span 6;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+#formulaire > form {
+    grid-column: 3 / span 4;
+    font-size: 1.4rem;
+}
+
+aside > h2 {
+    grid-column: 2 / span 6;
+    font-size: 3.4rem;
+}
+
+aside > h3 {
+    grid-column: 2 / span 6;
+    font-size: 2.8rem;
+}
+
+#charles {
+    grid-column: 2 / span 2;
+    font-size: 1.4rem;
+}
+
+#julien {
+    grid-column: 6 / span 2;
+    font-size: 1.4rem;
+}
+
+#floran {
+    grid-column: 10 / span 2;
+    font-size: 1.4rem;
+}
+
+aside > p {
+    grid-column: 4 / span 8;
+    text-align: right;
+    font-size: 5.25rem;
+}
+
+footer > .mentions {
+    grid-column: 1 / span 6;
+    font-size: 1rem;
+}
+
+footer > .footer_links {
+    grid-column: 11 / span 2;
+    font-size: 1rem;
 }
 
 button, .orange {
@@ -47,21 +114,20 @@ button {
     background: none;
 }
 
-form {
-    position: relative;
-    width: 500px;
+form > * {
+    display: block;
 }
 
 form > input {
     background: none;
     border: none;
-    border-bottom: #EA9632 solid 1px;
-    width: 200px;
-    padding-top: 10px;
+    border-bottom: #EA9632 solid .1rem;
+    width: 20rem;
+    padding-top: 1rem;
 }
 
 form > label {
-    padding-top: 10px;
+    padding-top: 1rem;
 }
 
 form > input[value="Inscrivez-vous"] {
@@ -71,17 +137,7 @@ form > input[value="Inscrivez-vous"] {
     position: absolute;
     bottom: 10%;
     right: 0;
-    padding: 10px 40px;
-}
-
-aside img {
-    width: 200px;
-    height: 200px;
-}
-
-aside > div {
-    display: inline-block;
-    padding-right: 50px;
+    padding: 1rem 4rem;
 }
 
 footer {
@@ -89,31 +145,33 @@ footer {
     color: #242424;
 }
 
-footer > div {
-    display: inline-block;
+/*
+main > img {
+    position: absolute;
+    z-index: -1;
 }
 
-header > * {
-    display: inline-block;
+#de {
+    top: -5rem;
+    right: -10rem;
 }
 
-header > h1 {
-    width: 200px;
+#echecs {
+    top: 40%;
+    right: -7rem;
 }
 
-header > img {
-    height: 150px;
-    width: auto;
+#famille {
+    top: 18%;
+    left: -7rem;
 }
 
 .para {
-    position: absolute;
-    padding: 10px;
-    border-top: #EA9632 solid 1px;
-    border-right: #227F89 solid 1px;
-    border-bottom: #227F89 solid 1px;
-    border-left: #EA9632 solid 1px;
-    width: 400px;
+    padding: 1rem;
+    border-top: #EA9632 solid .1rem;
+    border-right: #227F89 solid .1rem;
+    border-bottom: #227F89 solid .1rem;
+    border-left: #EA9632 solid .1rem;
 }
 
 .para:first-of-type {
@@ -133,3 +191,4 @@ header > img {
     position: absolute;
     top: 59%
 }
+*/

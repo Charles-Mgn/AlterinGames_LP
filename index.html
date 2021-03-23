@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/mes_css/styles.css">
     <title>Découvrez AlterinGames</title>
 </head>
 <body>
-<header>
+<header class="container">
     <h1>prenez le contrôle des règles</h1>
     <img src="img/logo.png" alt="Logo AlterinGames: Alter the rules">
 </header>
@@ -15,18 +15,20 @@
     <img src="img/image_dice.png" alt="Dé sur un fond noir" id="de">
     <img src="img/image_echecs.png" alt="Personnes jouant aux échecs" id="echecs">
     <img src="img/image_famille.png" alt="Famille jouant à un jeu de société" id="famille">
-    <div class="para">
-        <p>AlterinGames vous propose de retrouver le goût des jeux sur tables grâce à des règles alternatives qui chamboulerons vos parties entre amis ou en famille !</p>
-        <button>Je m<span class="blanc">'</span>inscris</button>
+    <div class="container">
+        <div id="para1">
+            <p>AlterinGames vous propose de retrouver le goût des jeux sur tables grâce à des règles alternatives qui chamboulerons vos parties entre amis ou en famille !</p>
+            <button>Je m<span class="blanc">'</span>inscris</button>
+        </div>
+        <div id="para2">
+            <p>Que vous soyez jeunes ou plus âgés, venez découvrir ou redécouvrir vos jeux favoris, et venez proposer VOS propres règles grâce à une communauté en pleine expansion.</p>
+        </div>
+        <div id="para3">
+            <p>Devenez les maîtres du jeu ! Alter the rules, alter the games.</p>
+            <button>Je m<span class="blanc">'</span>inscris</button>
+        </div>
     </div>
-    <div class="para">
-        <p>Que vous soyez jeunes ou plus âgés, venez découvrir ou redécouvrir vos jeux favoris, et venez proposer VOS propres règles grâce à une communauté en pleine expansion.</p>
-    </div>
-    <div class="para">
-        <p>Devenez les maîtres du jeu ! Alter the rules, alter the games.</p>
-        <button>Je m<span class="blanc">'</span>inscris</button>
-    </div>
-    <div id="formulaire">
+    <div id="formulaire" class="container">
         <p>Venez partager vos règles sur <span class="orange">AlterinGames</span></p>
         <form>
             <label>Pseudo</label>
@@ -41,7 +43,7 @@
         </form>
     </div>
 </main>
-<aside>
+<aside class="container">
     <h2><span class="orange">AlterinGames</span>, c'est ...</h2>
     <h3>Une équipe de passionnés</h3>
     <div id="Charles">
@@ -61,7 +63,7 @@
     </div>
     <p>Mais c'est aussi bien sûr chacun d'entre <span class="orange">vous</span> !</p>
 </aside>
-<footer>
+<footer class="container">
     <div class="mentions">
         <p>Ce site a été créé par Charles Mangin, Julien Ferré, et Floran Marchal, étudiants au DUT MMI de Montbéliard</p>
         <p>Ce projet a été réalisé dans le cadre d’un exercice pédagogique au département MMI de Montbéliard</p>
