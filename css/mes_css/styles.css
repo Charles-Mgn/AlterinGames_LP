@@ -1,12 +1,22 @@
+@font-face {
+    font-family: 'NotoMono';
+    src: url('../../fonts/NotoMono-Regular.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'Britannic';
+    src: url('../../fonts/britannic.ttf') format('truetype')
+}
+
 html {
     background-color: #242424;
     color: #FFFFFF;
-    font-family: Arial, sans-serif; /* par défaut, à changer */
+    font-family: 'NotoMono';
     position: relative;
-    overflow-x: hidden;
     font-size: 62.5%;
-    max-width: 1700px;
+    width: 1700px;
     margin: 0 auto;
+    line-height: 3rem;
 }
 
 html * {
@@ -15,125 +25,165 @@ html * {
 
 .container {
     display: grid;
-    grid-template-columns: repeat(12, 5.8%);
+    grid-template-columns: repeat(12, 7.05%);
     gap: 1.4%;
 }
 
-main > img {
-    display: none;
-}
-
 header > h1 {
+    font-family: 'Britannic';
     grid-column: 1 / span 3;
     text-align: right;
-    font-size: 4rem;
+    font-size: 5.87rem;
     vertical-align: middle;
+    text-transform: uppercase;
+    border-right: #FFFFFF 2px solid;
+    padding-right: 5.8%;
+    line-height: 7rem;
 }
 
 header > img {
     grid-column: 4 / span 3;
-    width: 105%;
+    width: 106%;
     height: auto;
+    margin-top: 15px;
 }
 
 #para1 {
     grid-column: 3 / span 5;
-    font-size: 1.5rem;
-    margin-top: 70px;
+    font-size: 2.5rem;
+    margin-top: 100px;
+    height: 21rem;
 }
 
 #para2 {
     grid-column: 8 / span 4;
-    font-size: 1.5rem;
-    margin-top: 400px;
+    font-size: 2.5rem;
+    margin-top: 700px;
+    height: 23rem;
 }
 
 #para3 {
     grid-column: 2 / span 4;
-    font-size: 1.7rem;
+    text-align: center;
+    font-size: 3rem;
     margin-top: 200px;
+    line-height: 4rem;
+    height: 26rem;
+}
+
+#para3 > p > span {
+    display: block;
+}
+
+#para1, #para2, #para3 {
+    border-right: #227F89 1px solid;
+    border-left: #EA9632 1px solid;
+    padding: 0 2rem;
 }
 
 #para4 {
     grid-column: 4 / span 6;
     text-align: center;
-    font-size: 2.5rem;
-    margin-top: 150px;
+    font-size: 4rem;
+    line-height: 5rem;
+    margin-top: 30rem;
 }
 
 form {
-    grid-column: 3 / span 9;
-    font-size: 1.4rem;
+    grid-column: 2 / span 9;
+    border-left: #FFFFFF 2px solid;
+    padding-left: 12rem;
+    font-size: 1.8rem;
     margin-top: 30px;
     position: relative;
 }
 
 form > input {
     margin-bottom: 1rem;
+    padding-right: 42.7rem;
+    font-family: 'NotoMono';
+    font-size: 2rem;
+    color: #FFFFFF;
 }
 
 form > input[type="submit"] {
     position: absolute;
     top: 50%;
     right: 0;
-    font-size: 2.9rem;
+    width: 40.5rem;
+    font-family: 'NotoMono';
+    font-size: 3.5rem;
     background-color: #EA9632;
     border: none;
     color: #FFFFFF;
     padding: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+aside {
+    margin-top: 30rem;
 }
 
 aside h2 {
     grid-column: 2 / span 6;
-    font-size: 3.4rem;
-    margin-top: 120px;
+    font-size: 5rem;
 }
 
 aside h3 {
     grid-column: 2 / span 6;
-    font-size: 2.8rem;
-    margin-top: 0;
+    font-size: 4.8rem;
+    margin-top: 5rem;
 }
 
-aside > div > img {
-    width: 225%;
+.photo > img {
+    width: 100%;
     height: auto;
 }
 
-#charles {
+#Charles {
     grid-column: 2 / span 2;
 }
 
-#julien {
+#Julien {
     grid-column: 6 / span 2;
 }
 
-#floran {
+#Floran {
     grid-column: 10 / span 2;
 }
 
 .photo p:first-of-type {
-     font-size: 1.5rem;
+     font-size: 2.5rem;
+    text-align: center;
+    padding-bottom: 1.5rem;
+    border-bottom: #FFFFFF 2px solid;
+    margin-bottom: 1.5rem;
  }
 
 .photo p:last-of-type {
-    font-size: 1rem;
+    font-size: 1.8rem;
+    text-align: center;
+    margin-top: 0;
 }
 
 aside p {
     grid-column: 4 / span 8;
     text-align: right;
-    font-size: 5.25rem;
+    font-size: 6.3rem;
+    line-height: 8rem;
 }
 
 footer > .mentions {
-    grid-column: 1 / span 6;
-    font-size: 0.89rem;
+    grid-column: 1 / span 7;
+    font-size: 1.1rem;
 }
 
 footer > .footer_links {
-    grid-column: 11 / span 2;
-    font-size: 0.89rem;
+    grid-column: 9 / span 4;
+    font-size: 1.3rem;
+    padding-left: 12rem;
+    border-left: #707070 1px solid;
 }
 
 button, .orange {
@@ -146,6 +196,12 @@ button, .orange {
 
 button {
     background: none;
+    float: right;
+    border: none;
+    border-top: #FFFFFF 1px solid;
+    border-bottom: #FFFFFF 1px solid;
+    font-family: 'NotoMono';
+    font-size: 2rem;
 }
 
 form > * {
@@ -169,7 +225,6 @@ footer {
     color: #242424;
 }
 
-/*
 main > img {
     position: absolute;
     z-index: -1;
@@ -178,15 +233,25 @@ main > img {
 #de {
     top: -5rem;
     right: -10rem;
+    width: 40%;
+    height: auto;
 }
 
 #echecs {
-    top: 40%;
+    top: 37%;
     right: -7rem;
+    width: 40%;
+    height: auto;
 }
 
 #famille {
     top: 18%;
     left: -7rem;
+    width: 40%;
+    height: auto;
 }
-*/
+
+body {
+    overflow-x: hidden;
+    margin: 0;
+}
