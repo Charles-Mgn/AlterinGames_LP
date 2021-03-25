@@ -19,12 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3345232a-347b-4239-acf2-14dd4b8b91e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/fond-footer.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/mes_css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mes_css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="3345232a-347b-4239-acf2-14dd4b8b91e4" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,7 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1616092810258</updated>
       <workItem from="1616092811576" duration="7024000" />
-      <workItem from="1616517825468" duration="16536000" />
+      <workItem from="1616517825468" duration="16576000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1616093181374</created>
@@ -156,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616534925590</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="mise en page footer">
+      <created>1616536353354</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1616536353354</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,12 +189,14 @@
     <MESSAGE value="fix positions grilles" />
     <MESSAGE value="normalize.css + fontawsome" />
     <MESSAGE value="fix positionnements images et textes" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix positionnements images et textes" />
+    <MESSAGE value="mise en page footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="mise en page footer" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="872" y="453" key="Vcs.Push.Dialog.v2" timestamp="1616100301518">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state x="-816" y="604" key="Vcs.Push.Dialog.v2" timestamp="1616536361892">
+      <screen x="-1080" y="0" width="1080" height="1920" />
     </state>
+    <state x="-816" y="604" key="Vcs.Push.Dialog.v2/-1080.0.1080.1920/0.0.2560.1440@-1080.0.1080.1920" timestamp="1616536361892" />
     <state x="872" y="453" key="Vcs.Push.Dialog.v2/-1080.0.1080.1920/0.0.2560.1440@0.0.2560.1440" timestamp="1616100301518" />
   </component>
 </project>

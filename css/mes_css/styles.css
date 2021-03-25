@@ -14,13 +14,19 @@ html {
     font-family: 'NotoMono';
     position: relative;
     font-size: 62.5%;
-    width: 1700px;
+    max-width: 1700px;
     margin: 0 auto;
     line-height: 4.5rem;
 }
 
 html * {
     box-sizing: border-box;
+}
+
+body {
+    margin: 0 1rem 1rem;
+    max-width: 1700px;
+    overflow-x: hidden;
 }
 
 .container {
@@ -268,11 +274,6 @@ footer > img {
     width: 3200px;
     left: -500px;
     bottom: 0;
-}
-
-body {
-    overflow-x: hidden;
-    margin: 0;
 }
 
 a {
