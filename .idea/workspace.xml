@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3345232a-347b-4239-acf2-14dd4b8b91e4" name="Default Changelist" comment="" />
+    <list default="true" id="3345232a-347b-4239-acf2-14dd4b8b91e4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mes_css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mes_css/styles.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,6 +69,7 @@
       <updated>1616092810258</updated>
       <workItem from="1616092811576" duration="7024000" />
       <workItem from="1616517825468" duration="16576000" />
+      <workItem from="1616829472035" duration="3491000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1616093181374</created>
@@ -198,5 +202,9 @@
     </state>
     <state x="-816" y="604" key="Vcs.Push.Dialog.v2/-1080.0.1080.1920/0.0.2560.1440@-1080.0.1080.1920" timestamp="1616536361892" />
     <state x="872" y="453" key="Vcs.Push.Dialog.v2/-1080.0.1080.1920/0.0.2560.1440@0.0.2560.1440" timestamp="1616100301518" />
+    <state x="945" y="111" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1616830245343">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="945" y="111" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.864@0.0.1536.864" timestamp="1616830245343" />
   </component>
 </project>
