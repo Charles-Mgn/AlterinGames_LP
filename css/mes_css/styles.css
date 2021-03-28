@@ -104,11 +104,17 @@ form {
 }
 
 form > input {
+    all: unset;
     margin-bottom: 1rem;
     padding-right: 42.7rem;
     font-family: 'NotoMono';
     font-size: calc(1vw + .3rem);
     color: #FFFFFF;
+    background: none;
+    border-bottom: #EA9632 solid .1rem;
+    width: 20.5rem;
+    padding-top: 1rem;
+}
 }
 
 form > input[type="submit"] {
@@ -224,14 +230,6 @@ footer > .footer_links {
 
 form > * {
     display: block;
-}
-
-form > input {
-    background: none;
-    border: none;
-    border-bottom: #EA9632 solid .1rem;
-    width: 20.5rem;
-    padding-top: 1rem;
 }
 
 form > label {
