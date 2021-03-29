@@ -1,3 +1,7 @@
+@keyframes entete-logo {
+    100% { transform: translateY(0); }
+}
+
 html {
     margin: 0 auto;
     line-height: calc(3vw + .3rem);
@@ -41,6 +45,8 @@ header > img {
     grid-column: 4 / span 3;
     width: 101%;
     height: auto;
+    transform: translateY(-20vw);
+    animation: entete-logo 3s 1s forwards;
 }
 
 #para1, #para2, #para3 {
@@ -156,7 +162,7 @@ aside h3 {
     border-radius: 50%;
 }
 
-.photo img:hover {
+.photo > img:hover {
     border: #EA9632 10px solid;
     transition: all .5s;
 }
