@@ -27,11 +27,6 @@ header > h1 {
     border-right: #FFFFFF 2px solid;
 }
 
-header > img {
-    transform: translateY(-20vw);
-    animation: entete-logo 3s 1s forwards;
-}
-
 #para1, #para2, #para3 {
     border-right: #227F89 calc(2px + .1vw) solid;
     border-left: #EA9632 calc(2px + .1vw) solid;
