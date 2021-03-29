@@ -8,6 +8,10 @@
     src: url('../../fonts/britannic.ttf') format('truetype')
 }
 
+@keyframes entete-logo {
+    100% { transform: translateY(0); }
+}
+
 html {
     background-color: #242424;
     color: #FFFFFF;
@@ -21,6 +25,11 @@ header > h1 {
     font-size: calc(3.8vw + .3rem);
     text-transform: uppercase;
     border-right: #FFFFFF 2px solid;
+}
+
+header > img {
+    transform: translateY(-20vw);
+    animation: entete-logo 3s 1s forwards;
 }
 
 #para1, #para2, #para3 {
@@ -63,6 +72,8 @@ form > input[type="submit"] {
 form > input[type="submit"]:hover {
     background-color: #FFFFFF;
     color: #EA9632;
+    border: #EA9632 4px solid;
+    padding: 17px 7px;
     transition: all .5s;
 }
 

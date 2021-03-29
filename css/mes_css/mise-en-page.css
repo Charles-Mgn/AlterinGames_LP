@@ -153,6 +153,12 @@ aside h3 {
 
 .clipCircle {
     clip-path: circle(50% at 50% 50%);
+    border-radius: 50%;
+}
+
+.photo img:hover {
+    border: #EA9632 10px solid;
+    transition: all .5s;
 }
 
 .photo p {
