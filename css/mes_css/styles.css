@@ -60,6 +60,12 @@ form > input[type="submit"] {
     text-transform: uppercase;
 }
 
+form > input[type="submit"]:hover {
+    background-color: #FFFFFF;
+    color: #EA9632;
+    transition: all .5s;
+}
+
 .je_minscris, .orange {
     color: #EA9632;
 }
@@ -76,6 +82,20 @@ form > input[type="submit"] {
     border-bottom: #FFFFFF 1px solid;
     font-family: 'NotoMono';
     font-size: calc(1.5vw + .3rem);
+}
+
+.je_minscris:hover {
+    border-top: #EA9632 1px solid;
+    border-bottom: #EA9632 1px solid;
+    color: #FFFFFF;
+    font-size: calc(1.5vw + .4rem);
+    transition: all .3s;
+}
+
+.je_minscris:hover .blanc {
+    color: #EA9632;
+    font-size: calc(1.5vw + .4rem);
+    transition: all .3s;
 }
 
 aside h2 {
@@ -121,6 +141,13 @@ a {
 .footer_links a {
     display: block;
     color: #242424;
+}
+
+.footer_links a:hover {
+    color: #EA9632;
+    transform: translateX(10px);
+    font-size: calc(.55vw + .4rem);
+    transition: all .3s;
 }
 
 body::-webkit-scrollbar {

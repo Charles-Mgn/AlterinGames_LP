@@ -72,6 +72,7 @@
       <workItem from="1616829472035" duration="3839000" />
       <workItem from="1616835276857" duration="3586000" />
       <workItem from="1617029743261" duration="1593000" />
+      <workItem from="1617047620836" duration="882000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1616093181374</created>
@@ -178,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617040869670</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="bordures plus épaisses">
+      <created>1617041548248</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1617041548248</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,13 +220,14 @@
     <MESSAGE value="mise en page footer" />
     <MESSAGE value="vw sur les font-sizes" />
     <MESSAGE value="lignes directrices" />
-    <option name="LAST_COMMIT_MESSAGE" value="lignes directrices" />
+    <MESSAGE value="bordures plus épaisses" />
+    <option name="LAST_COMMIT_MESSAGE" value="bordures plus épaisses" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-816" y="604" key="Vcs.Push.Dialog.v2" timestamp="1617040873349">
+    <state x="-816" y="604" key="Vcs.Push.Dialog.v2" timestamp="1617041573644">
       <screen x="-1080" y="0" width="1080" height="1920" />
     </state>
-    <state x="-816" y="604" key="Vcs.Push.Dialog.v2/-1080.0.1080.1920/0.0.2560.1440@-1080.0.1080.1920" timestamp="1617040873349" />
+    <state x="-816" y="604" key="Vcs.Push.Dialog.v2/-1080.0.1080.1920/0.0.2560.1440@-1080.0.1080.1920" timestamp="1617041573644" />
     <state x="872" y="453" key="Vcs.Push.Dialog.v2/-1080.0.1080.1920/0.0.2560.1440@0.0.2560.1440" timestamp="1616100301518" />
     <state x="375" y="272" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1616833027569" />
     <state x="945" y="111" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1616830245343">
@@ -229,5 +238,9 @@
       <screen x="0" y="0" width="2560" height="1440" />
     </state>
     <state x="1097" y="634" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1080.0.1080.1920/0.0.2560.1440@0.0.2560.1440" timestamp="1616959968051" />
+    <state x="-877" y="445" key="search.everywhere.popup" timestamp="1617048263293">
+      <screen x="-1080" y="0" width="1080" height="1920" />
+    </state>
+    <state x="-877" y="445" key="search.everywhere.popup/-1080.0.1080.1920/0.0.2560.1440@-1080.0.1080.1920" timestamp="1617048263293" />
   </component>
 </project>
