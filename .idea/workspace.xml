@@ -20,9 +20,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3345232a-347b-4239-acf2-14dd4b8b91e4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/img/image_dice.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/image_echecs.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/image_famille.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/logo.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/path-1.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/path-2.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/path-3.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/photo_charles.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/photo_floran.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/photo_julien.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/mes_css/mise-en-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mes_css/mise-en-page.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/mes_css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mes_css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/fond-footer.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/fond-footer.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/image_dice.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/image_echecs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/image_famille.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_charles.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_floran.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/photo_julien.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

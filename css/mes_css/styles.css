@@ -46,7 +46,6 @@ form {
 }
 
 form > input {
-    all: unset;
     font-family: 'NotoMono';
     font-size: calc(1vw + .3rem);
     color: #FFFFFF;
@@ -98,7 +97,7 @@ footer {
 .photo a {
     font-size: calc(.9vw + .3rem);
     border-top: #FFFFFF 2px solid;
-    margin-top: 3rem;
+    margin-top: 2vw;
 }
 
 aside p {

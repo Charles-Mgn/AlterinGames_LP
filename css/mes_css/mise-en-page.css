@@ -16,7 +16,7 @@ body {
 .container {
     display: grid;
     grid-template-columns: repeat(12, 7.5vw);
-    grid-template-rows: repeat(63, 3.9vw);
+    grid-template-rows: repeat(62, 3.9vw);
     gap: .83333vw;
 }
 
@@ -39,7 +39,7 @@ header > h1 {
 
 header > img {
     grid-column: 4 / span 3;
-    width: 106%;
+    width: 101%;
     height: auto;
 }
 
@@ -82,7 +82,7 @@ header > img {
 form {
     grid-column: 2 / span 9;
     grid-row: 35 / span 7;
-    padding-left: 12rem;
+    padding-left: calc(7.5vw + .83333vw);
     position: relative;
 }
 
@@ -95,9 +95,10 @@ form > label {
 }
 
 form > input {
+    all: unset;
     margin-bottom: 1rem;
     padding-right: 42.7rem;
-    width: 20.5rem;
+    width: 11.2vw;
     padding-top: 1rem;
 }
 
@@ -105,7 +106,7 @@ form > input[type="submit"] {
     position: absolute;
     top: 50%;
     right: 0;
-    width: 40.5rem;
+    width: 23.2vw;
     padding: 2rem 1rem;
     text-align: center;
 }
@@ -137,17 +138,21 @@ aside h3 {
 
 #Charles {
     grid-column: 2 / span 2;
-    grid-row: 48 / span 5;
+    grid-row: 48 / span 6;
 }
 
 #Julien {
     grid-column: 6 / span 2;
-    grid-row: 48 / span 5;
+    grid-row: 48 / span 6;
 }
 
 #Floran {
     grid-column: 10 / span 2;
-    grid-row: 48 / span 5;
+    grid-row: 48 / span 6;
+}
+
+.clipCircle {
+    clip-path: circle(50% at 50% 50%);
 }
 
 .photo p {
@@ -170,20 +175,23 @@ aside p {
 }
 
 footer > .mentions {
+    padding-top: 10px;
+    margin-top: 10px;
     grid-column: 2 / span 6;
-    grid-row: 61 / span 4;
+    grid-row: 60 / span 3;
 }
 
 footer > .footer_links {
     grid-column: 9 / span 3;
-    padding-left: 14rem;
-    grid-row: 61 / span 4;
+    grid-row: 60 / span 2;
+    padding-left: calc(7.5vw + .83333vw);
+    margin-top: 10px;
 }
 
 footer > img {
-    width: 3200px;
-    left: -500px;
-    bottom: -6vw;
+    width: 102vw;
+    left: -2vw;
+    bottom: 0;
 }
 
 main > img, footer > img {
@@ -193,8 +201,15 @@ main > img, footer > img {
 
 #de {
     top: -5vw;
-    right: -10vw;
-    width: 48%;
+    right: -9vw;
+    width: 47vw;
+    height: auto;
+}
+
+#famille {
+    top: 46vw;
+    left: -6vw;
+    width: 53%;
     height: auto;
 }
 
@@ -205,9 +220,23 @@ main > img, footer > img {
     height: auto;
 }
 
-#famille {
-    top: 46vw;
-    left: -6vw;
-    width: 53%;
+#path-1 {
+    top: 43vw;
+    right: 30vw;
+    width: 31vw;
+    height: auto;
+}
+
+#path-2 {
+    top: 77vw;
+    right: 30vw;
+    width: 40vw;
+    height: auto;
+}
+
+#path-3 {
+    top: 130vw;
+    right: 30vw;
+    width: 40vw;
     height: auto;
 }
