@@ -24,8 +24,8 @@ header > h1 {
 }
 
 #para1, #para2, #para3 {
-    border-right: #227F89 1px solid;
-    border-left: #EA9632 1px solid;
+    border-right: #227F89 calc(2px + .1vw) solid;
+    border-left: #EA9632 calc(2px + .1vw) solid;
 }
 
 #para1, #para2 {
