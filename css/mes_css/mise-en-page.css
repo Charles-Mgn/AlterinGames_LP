@@ -92,15 +92,16 @@ form {
     position: relative;
 }
 
-form > * {
+form * {
     display: block;
+    transition: all .3s;
 }
 
-form > label {
+form label {
     padding-top: 1rem;
 }
 
-form > input {
+form input {
     all: unset;
     margin-bottom: 1rem;
     padding-right: 42.7rem;
@@ -108,7 +109,7 @@ form > input {
     padding-top: 1rem;
 }
 
-form > input[type="submit"] {
+form input[type="submit"] {
     position: absolute;
     top: 50%;
     right: 0;
