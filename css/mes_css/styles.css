@@ -18,7 +18,7 @@ html {
 
 header > h1 {
     font-family: 'Britannic';
-    font-size: calc(4vw + .3rem);
+    font-size: calc(3.8vw + .3rem);
     text-transform: uppercase;
     border-right: #FFFFFF 2px solid;
 }
@@ -47,28 +47,18 @@ form {
 
 form > input {
     all: unset;
-    margin-bottom: 1rem;
-    padding-right: 42.7rem;
     font-family: 'NotoMono';
     font-size: calc(1vw + .3rem);
     color: #FFFFFF;
     background: none;
     border-bottom: #EA9632 solid .1rem;
-    width: 20.5rem;
-    padding-top: 1rem;
 }
 
 form > input[type="submit"] {
-    position: absolute;
-    top: 50%;
-    right: 0;
-    width: 40.5rem;
     font-size: calc(2.1vw + .3rem);
     background-color: #EA9632;
     border: none;
-    padding: 2rem 1rem;
     text-transform: uppercase;
-    text-align: center;
 }
 
 .je_minscris, .orange {
@@ -99,7 +89,6 @@ aside h3 {
 
 footer {
     color: #242424;
-    margin-top: 30rem;
 }
 
 .photo p {
@@ -117,7 +106,7 @@ aside p {
 }
 
 footer > .mentions {
-    font-size: calc(.55vw + .3rem);
+    font-size: calc(.53vw + .3rem);
 }
 
 footer > .footer_links {
@@ -142,37 +131,4 @@ body::-webkit-scrollbar {
 
 body::-webkit-scrollbar-thumb {
     background-color: #EA9632;
-}
-
-.je_minscris::before, .je_minscris::after {
-    background: #eee;
-    z-index: -1;
-    transition: 1s;
-    content: '';
-}
-
-.je_minscris::before {
-    height: 1px;
-    width: 100%;
-    position: absolute;
-    transform: translateX(25%);
-}
-
-.je_minscris:hover::before {
-    width: 0;
-    background: #fff;
-}
-
-.je_minscris::after{
-    width: 125%;
-    height: 1px;
-    position: absolute;
-    bottom: 0;
-    left: -12.5%;
-}
-
-.je_minscris:hover::after {
-    transform-origin: right;
-    width: 0;
-    background: #fff;
 }
