@@ -236,21 +236,24 @@ main > img, footer > img {
     height: auto;
 }
 
-#path-1 {
+#path-1,#path-1_sombre {
     top: 43vw;
     right: 30vw;
     width: 31vw;
     height: auto;
 }
 
-#path-2 {
+#path-2,#path-2_sombre {
     top: 77vw;
     right: 30vw;
     width: 40vw;
     height: auto;
 }
+#path-2_sombre{
+    top: 90vw;
+}
 
-#path-3 {
+#path-3,#path-3_sombre{
     top: 130vw;
     right: 30vw;
     width: 40vw;

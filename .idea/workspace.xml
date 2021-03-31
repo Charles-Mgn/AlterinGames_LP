@@ -21,6 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="3345232a-347b-4239-acf2-14dd4b8b91e4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mes_css/mise-en-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mes_css/mise-en-page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mes_css/mode_jour.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mes_css/mode_jour.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mes_css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mes_css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +78,7 @@
       <workItem from="1617047620836" duration="2252000" />
       <workItem from="1617050034196" duration="659000" />
       <workItem from="1617176933007" duration="403000" />
-      <workItem from="1617178724765" duration="4397000" />
+      <workItem from="1617178724765" duration="4915000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1616093181374</created>
@@ -244,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617180864513</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="nouvelles images (version sombre)">
+      <created>1617183852981</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1617183852981</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -286,7 +297,8 @@
     <MESSAGE value="code jour/nuit (floran)" />
     <MESSAGE value="fix mise en page" />
     <MESSAGE value="fix formulaire version jour" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix formulaire version jour" />
+    <MESSAGE value="nouvelles images (version sombre)" />
+    <option name="LAST_COMMIT_MESSAGE" value="nouvelles images (version sombre)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="375" y="272" key="Vcs.Push.Dialog.v2" timestamp="1617183619058">

@@ -207,3 +207,10 @@ input[type="checkbox"].jour_nuit:checked + label {
 input[type="checkbox"].jour_nuit:checked + label::before {
     margin-left: 3rem ;
 }
+
+.sombre{
+    display: none;
+}
+.claire{
+    display: block;
+}

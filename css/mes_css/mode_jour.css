@@ -74,3 +74,10 @@
     padding: 17px 7px;
     transition: all .5s;
 }
+
+.jour .sombre{
+    display: block;
+}
+.jour .claire{
+    display: none;
+}
