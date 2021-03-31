@@ -57,3 +57,20 @@
     background-color: #c0ceda ;
     transition: all 0.5s ;
 }
+
+.jour form input[type="submit"] {
+    font-size: calc(2.1vw + .3rem);
+    background-color: #EA9632;
+    border: none;
+    text-transform: uppercase;
+    transition: all .5s;
+    color: #FFFFFF;
+}
+
+.jour form input[type="submit"]:hover {
+    background-color: #FFFFFF;
+    color: #EA9632;
+    border: #EA9632 4px solid;
+    padding: 17px 7px;
+    transition: all .5s;
+}
