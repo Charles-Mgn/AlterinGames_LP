@@ -86,7 +86,7 @@ header > img {
 }
 
 form {
-    grid-column: 2 / span 9;
+    grid-column: 2 / span 10;
     grid-row: 35 / span 7;
     padding-left: calc(7.5vw + .83333vw);
     position: relative;
@@ -104,8 +104,7 @@ form label {
 form input {
     all: unset;
     margin-bottom: 1rem;
-    padding-right: 42.7rem;
-    width: 11.2vw;
+    width: 40.7vw;
     padding-top: 1rem;
 }
 
@@ -113,9 +112,13 @@ form input[type="submit"] {
     position: absolute;
     top: 50%;
     right: 0;
-    width: 23.2vw;
     padding: 2rem 1rem;
+    width: 22.4vw;
     text-align: center;
+}
+
+.association-form {
+    width: 30vw;
 }
 
 aside h2 {
@@ -252,4 +255,10 @@ main > img, footer > img {
     right: 30vw;
     width: 40vw;
     height: auto;
+}
+
+input[type="checkbox"].jour_nuit + label {
+    position: absolute;
+    top: 2%;
+    right: 25%;
 }
