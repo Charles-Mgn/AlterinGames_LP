@@ -265,3 +265,7 @@ input[type="checkbox"].jour_nuit + label {
     top: 2%;
     right: 25%;
 }
+
+.jour .insta {
+    display: inline;
+}
