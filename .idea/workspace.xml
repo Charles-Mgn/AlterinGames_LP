@@ -21,7 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3345232a-347b-4239-acf2-14dd4b8b91e4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/mes_css/mise-en-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mes_css/mise-en-page.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/mes_css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mes_css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -77,7 +76,7 @@
       <workItem from="1617047620836" duration="2252000" />
       <workItem from="1617050034196" duration="659000" />
       <workItem from="1617176933007" duration="403000" />
-      <workItem from="1617178724765" duration="5317000" />
+      <workItem from="1617178724765" duration="5700000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1616093181374</created>
@@ -261,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617184308987</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="fix logo insta">
+      <created>1617184598181</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1617184598181</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,7 +287,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Initial commit" />
     <MESSAGE value="structure html" />
     <MESSAGE value="mise en forme et couleurs" />
     <MESSAGE value="images membres + mise en page footer" />
@@ -305,15 +310,17 @@
     <MESSAGE value="fix formulaire version jour" />
     <MESSAGE value="nouvelles images (version sombre)" />
     <MESSAGE value="modif display jour (floran)" />
-    <option name="LAST_COMMIT_MESSAGE" value="modif display jour (floran)" />
+    <MESSAGE value="fix logo insta" />
+    <MESSAGE value="fix img" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix img" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="375" y="272" key="Vcs.Push.Dialog.v2" timestamp="1617183619058">
+    <state x="375" y="272" key="Vcs.Push.Dialog.v2" timestamp="1617184604448">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="-816" y="604" key="Vcs.Push.Dialog.v2/-1080.0.1080.1920/0.0.2560.1440@-1080.0.1080.1920" timestamp="1617050201809" />
     <state x="872" y="453" key="Vcs.Push.Dialog.v2/-1080.0.1080.1920/0.0.2560.1440@0.0.2560.1440" timestamp="1616100301518" />
-    <state x="375" y="272" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1617183619058" />
+    <state x="375" y="272" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1617184604448" />
     <state x="945" y="111" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1616830245343">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
