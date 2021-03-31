@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3345232a-347b-4239-acf2-14dd4b8b91e4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/css/mes_css/mode_jour.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/mes_css/mise-en-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mes_css/mise-en-page.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/mes_css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mes_css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -76,6 +76,8 @@
       <workItem from="1617029743261" duration="1593000" />
       <workItem from="1617047620836" duration="2252000" />
       <workItem from="1617050034196" duration="659000" />
+      <workItem from="1617176933007" duration="403000" />
+      <workItem from="1617178724765" duration="281000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1616093181374</created>

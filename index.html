@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/lib/all.css">
     <link rel="stylesheet" href="css/mes_css/mise-en-page.css">
     <link rel="stylesheet" href="css/mes_css/styles.css">
+    <link rel="stylesheet" href="css/mes_css/mode_jour.css">
     <title>Découvrez AlterinGames</title>
 </head>
 <body class="container">
@@ -21,6 +22,9 @@
     <img src="img/path-1.webp" alt="Chemin" id="path-1">
     <img src="img/path-2.webp" alt="Chemin 2" id="path-2">
     <img src="img/path-3.webp" alt="Chemin 3" id="path-3">
+
+    <input type="checkbox" onclick="jour_nuit ()" class="jour_nuit" id="jour_nuit">
+    <label for="jour_nuit"></label>
     <div id="para1">
             <p>AlterinGames vous propose de retrouver le goût des jeux sur tables grâce à des règles alternatives qui chamboulerons vos parties entre amis ou en famille !</p>
             <a href="#para4" class="je_minscris">Je m<span class="blanc">'</span>inscris</a>
@@ -91,4 +95,10 @@
     <img src="img/fond-footer.png" alt="">
 </footer>
 </body>
+<script>
+        function jour_nuit() {
+            let element = document.body;
+            element.classList.toggle("jour");
+        }
+</script>
 </html>
