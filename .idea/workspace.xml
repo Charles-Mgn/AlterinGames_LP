@@ -21,7 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3345232a-347b-4239-acf2-14dd4b8b91e4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/mes_css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mes_css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mes_css/mise-en-page.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mes_css/mise-en-page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mes_css/mode_jour.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mes_css/mode_jour.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +77,10 @@
       <workItem from="1617047620836" duration="2252000" />
       <workItem from="1617050034196" duration="659000" />
       <workItem from="1617176933007" duration="403000" />
-      <workItem from="1617178724765" duration="5700000" />
+      <workItem from="1617178724765" duration="5837000" />
+      <workItem from="1617195014577" duration="31000" />
+      <workItem from="1617364042433" duration="23000" />
+      <workItem from="1617431758814" duration="3316000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1616093181374</created>
@@ -267,7 +271,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617184598181</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="fix img">
+      <created>1617184953954</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1617184953954</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,20 +326,21 @@
     <option name="LAST_COMMIT_MESSAGE" value="fix img" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="375" y="272" key="Vcs.Push.Dialog.v2" timestamp="1617184604448">
+    <state x="375" y="272" key="Vcs.Push.Dialog.v2" timestamp="1617195033648">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="-816" y="604" key="Vcs.Push.Dialog.v2/-1080.0.1080.1920/0.0.2560.1440@-1080.0.1080.1920" timestamp="1617050201809" />
     <state x="872" y="453" key="Vcs.Push.Dialog.v2/-1080.0.1080.1920/0.0.2560.1440@0.0.2560.1440" timestamp="1616100301518" />
-    <state x="375" y="272" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1617184604448" />
+    <state x="375" y="272" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1617195033648" />
     <state x="945" y="111" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1616830245343">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="945" y="111" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.864@0.0.1536.864" timestamp="1616830245343" />
-    <state x="1097" y="634" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1616959968051">
-      <screen x="0" y="0" width="2560" height="1440" />
+    <state x="658" y="380" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1617431762178">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="1097" y="634" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1080.0.1080.1920/0.0.2560.1440@0.0.2560.1440" timestamp="1616959968051" />
+    <state x="658" y="380" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1617431762178" />
     <state x="-877" y="445" key="search.everywhere.popup" timestamp="1617048263293">
       <screen x="-1080" y="0" width="1080" height="1920" />
     </state>

@@ -1,5 +1,11 @@
 @keyframes entete-logo {
-    100% { transform: translateY(0); }
+    100% { transform: translateX(0);
+            opacity: 1 }
+}
+
+@keyframes appa-para {
+    100% { transform: translateY(0);
+        opacity: 1 }
 }
 
 html {
@@ -39,14 +45,19 @@ header > h1 {
     line-height: calc(5vw + .3rem);
     text-align: right;
     vertical-align: middle;
+    transform: translateX(-25vw);
+    animation: entete-logo .3s ease-in-out forwards;
+    background-color: #242424;
+    z-index: 1;
 }
 
 header > img {
     grid-column: 4 / span 3;
     width: 101%;
     height: auto;
-    transform: translateY(-20vw);
-    animation: entete-logo 3s 1s forwards;
+    transform: translateX(-35vw);
+    opacity: 0;
+    animation: entete-logo .3s .15s ease-in-out forwards;
 }
 
 #para1, #para2, #para3 {
@@ -56,6 +67,9 @@ header > img {
 #para1 {
     grid-column: 3 / span 5;
     grid-row: 6 / span 4;
+    transform: translateY(10vw);
+    opacity: 0;
+    animation: appa-para .3s .2s ease-in-out forwards;
 }
 
 #para1 > p {
