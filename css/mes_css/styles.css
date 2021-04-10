@@ -26,13 +26,13 @@ header > h1 {
     border-right: #FFFFFF 2px solid;
 }
 
-#para1, #para2, #para3 {
+#paragraph1, #paragraph2, #paragraph3 {
     border-right: #227F89 calc(2px + .1vw) solid;
     border-left: #EA9632 calc(2px + .1vw) solid;
     position: relative;
     padding-bottom: 5px;
 }
-#para1::before, #para2::before, #para3::before {
+#paragraph1::before, #paragraph2::before, #paragraph3::before {
     content: '';
     position: absolute;
     width: 5vw;
@@ -41,7 +41,7 @@ header > h1 {
     left: -2px;
     background-color: #EA9632;
 }
-#para1::after, #para2::after, #para3::after {
+#paragraph1::after, #paragraph2::after, #paragraph3::after {
     content: '';
     position: absolute;
     width: 5vw;
@@ -51,15 +51,15 @@ header > h1 {
     background-color: #227F89;
 }
 
-#para1, #para2 {
+#paragraph1, #paragraph2 {
     font-size: calc(1.3vw + .3rem);
 }
 
-#para3 {
+#paragraph3 {
     font-size: calc(1.5vw + .3rem);
 }
 
-#para4 {
+#paragraph4 {
     font-size: calc(2vw + .3rem);
 }
 
@@ -191,6 +191,11 @@ a {
 
 body::-webkit-scrollbar {
     width: .5rem;
+    background-color: #227F89;
+}
+
+body::-webkit-scrollbar:hover {
+    width: 1.5rem;
     background-color: #227F89;
 }
 
